@@ -3,7 +3,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 import { nombreApellidoPattern, emailPattern, noPuedeSerStrider } from '../../../shared/validator/validaciones';
 import { ValidatorService } from '../../../shared/validator/validator.service';
-import { EmailValidatorService } from '../../../shared/validator/email-validator.service';
+import { EmailValidatorService } from "../../../shared/validator/email-validator.service";
 
 @Component({
   selector: 'app-registro',
